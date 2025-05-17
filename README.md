@@ -38,6 +38,23 @@ A simple Flask API is used to take in text/image inputs and return movie recomme
 - Fine-tuned on: GoEmotions
 - Output: One of 28 emotion classes
 
+
+---
+
+## 📦 `requirements.txt` 
+
+```text
+transformers
+datasets
+torch
+tensorflow
+pandas
+flask
+numpy
+scikit-learn
+Pillow
+
+
 ### 🖼️ Image Emotion Classifier
 - CNN trained on FER2013 (7-class emotion recognition)
 
