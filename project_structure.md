@@ -1,6 +1,7 @@
 emotion-aware-movie-recommender/
-├── app/
-│ ├── text_emotion.py # Predicts emotion from text using BERT
+
+- ├── app/
+- │ ├── text_emotion.py # Predicts emotion from text using BERT
 │ ├── image_emotion.py # Predicts emotion from face image (CNN on FER2013)
 │ ├── recommend.py # Recommends movies based on detected emotion
 │ ├── fusion.py # Combines text/image emotions
