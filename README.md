@@ -20,4 +20,33 @@ A simple Flask API is used to take in text/image inputs and return movie recomme
 
 ---
 
-#
+
+---
+
+## 📂 Datasets
+
+- **Text**: [GoEmotions (Simplified)](https://huggingface.co/datasets/google-research-datasets/go_emotions)
+- **Image**: [FER2013](https://www.kaggle.com/datasets/msambare/fer2013)
+- **Movies**: [MovieLens 100k](https://grouplens.org/datasets/movielens/)
+
+---
+
+## 🧠 Models
+
+### 📝 Text Emotion Classifier
+- Model: `BERT-base-uncased`
+- Fine-tuned on: GoEmotions
+- Output: One of 28 emotion classes
+
+### 🖼️ Image Emotion Classifier
+- CNN trained on FER2013 (7-class emotion recognition)
+
+---
+
+## ⚙️ How to Run
+
+### 1. Clone this repo
+```bash
+git clone https://github.com/yourusername/emotion-aware-movie-recommender.git
+cd emotion-aware-movie-recommender
+
